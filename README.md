@@ -34,7 +34,7 @@ SECTIONS INCLUDED
 4. Projects: Overview of 3 academic projects:
     - Tourism Website
     - Virtual Art Gallery
-    - HealthHack terf
+    - HealthHack
 5. Contact: Contact information and a message form.
 
 ------------------------------------------------------------------------
