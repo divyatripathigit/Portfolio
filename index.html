@@ -1,163 +1,101 @@
 <!DOCTYPE html>
-<!--to tell browser we are using html5  -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Virtual Art Gallery</title>
+    <title>My Portfolio | CSE (AI & ML) Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <h1>A Journey Through Art History</h1>
-        
-        <p>Welcome to my virtual gallery! This collection features five iconic works of art. Use the links below to jump to a specific piece.</p>
+    <nav>
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-     <a href="index.html">Home</a> |
-            <a href="https://en.wikipedia.org/wiki/Tower_of_Babel">The Tower of Babel</a> |
-            <a href="https://en.wikipedia.org/wiki/The_Starry_Night">The Starry Night</a> |
-            <a href="https://en.wikipedia.org/wiki/Impression,_Sunrise">Impression, Sunrise</a> |
-            <a href="https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring">Girl with a Pearl Earring</a> |
-            <a href="https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa">The Great Wave off Kanagawa</a>
-        
-    </header>
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Divya Tripathi</span></h1>
+            <p class="tagline">1st Year B.Tech Student | CSE (AI & ML) | Tech Enthusiast</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Profile Photo">
+        </div>
+    </section>
 
-    <hr>
-
-    <main>
-
-        
-            <h3>1. The Tower of Babel</h3>
-            
-            <img src="The Tower of Babel.png" alt="The  Tower of Babel by Pieter Bruegel the Elder" width="300" height="450">
-            <!--Image integrated relatively-->
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
             <p>
-                <strong>Artist:</strong>Pieter Bruegel <br>
-                <em>The Tower of Babel</em> Pieter Bruegel the Elder has created as many as three famous art pieces based on a popular <ins>biblical storyline.</ins>  You can see this artwork in the Kunsthistorisches Museum in Vienna.
+                I am a first-year B.Tech student specializing in <strong>Computer Science and Engineering (AI & ML)</strong> at <strong>KIET Group of Institutions, Ghaziabad</strong>. 
+                I have a keen interest in web development and artificial intelligence. When I am not coding, 
+                I enjoy exploring creative arts, reading about new tech trends, and working on design ideas. 
+                My goal is to build impactful solutions using technology.
             </p>
- <!--Strong is used to meke text bold, em is used for italic, ins is used for underline.-->
-  <!--br is used to start a new line.-->
-<!--em is used for italics-->
-<!--ins is used to underline the text-->
-        <hr>
+        </div>
+    </section>
 
-      
-            <h3>2. The Starry Night</h3>
-            <img src="The starry night.png" alt="The Starry Night by Vincent van Gogh" width="400" height="315">
-            <p>
-                <strong>Artist:</strong> Vincent van Gogh<br>
-                This painting shows the view from van Gogh's asylum room window at Saint-Rémy-de-Provence. It is a powerful piece of <em>Post-Impressionism</em> known for its <ins>emotional honesty</ins> and bold colors. It was not well-known during his lifetime.
-            </p>
-        
-        <hr>
+    <section id="skills" class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">C Programming</div>
+            <div class="skill-card">Python Basics</div>
+            <div class="skill-card">AI/ML Basics</div>
+            <div class="skill-card">Problem Solving</div>
+        </div>
+    </section>
 
-        
-            <h3>3.  Impression, Sunrise </h3>
-            <img src="impression, sunrise.png" alt=" Impression, Sunrise  " width="400" height="300">
-            <p>
-                <strong>Artist:</strong>Claude Monet<br>
-                The name of this painting Impression, soleil levant with the light hand of the journalist <em>L. Leroy</em> became the name of the artistic movement. Today, this iconic work of the impressionist Claude Monet adorns the <ins>Musée Marmottan Monet</ins> in Paris.
-            </p>
+    <section id="projects" class="container">
+        <h2 class="section-title">Academic Projects</h2>
+        <div class="projects-grid">
             
+            <div class="project-card">
+                <h3>Travel World</h3>
+                <p>A travel agency website featuring destination guides for Kerala and Rajasthan, complete with travel packages and pricing tables.</p>
+                <a href="#" class="btn-small">View Code</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Virtual Art Gallery</h3>
+                <p>A digital tribute to art history showcasing masterpieces like "The Starry Night" and "Tower of Babel" with detailed artist biographies.</p>
+                <a href="#" class="btn-small">View Code</a>
+            </div>
+
+            <div class="project-card">
+                <h3>HealthHack Interface</h3>
+                <p>The design for a health awareness platform that aims to predict diabetes and mental health indicators.</p>
+                <a href="#" class="btn-small">View Code</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-box">
+            <p>Feel free to reach out for collaborations!</p>
+            <a href="mailto:divya.25004134@kiet.edu" class="contact-link">divya.25004134@kiet.edu</a>
             
-       
-        <hr>
+            <form class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea rows="4" placeholder="Message"></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
 
-        
-            <h3>4. Girl with a Pearl Earring</h3>
-            <img src="The girl with pearl earrings.png" alt="Girl with a Pearl Earring by Johannes Vermeer" width="300" height="355">
-            <p>
-                <strong>Artist:</strong> Johannes Vermeer<br>
-                Often called the "Mona Lisa of the North," this painting is a masterwork of the <em>Dutch Golden Age</em>. The identity of the girl is unknown, adding to the painting's mystery. It's a <ins>tronie</ins>, a study of a head and shoulders, not a formal portrait. The work was forgotten for centuries before its rediscovery.
-            </p>
-        </section>
-        <hr>
-
-       
-            <h3>5. The Great Wave off Kanagawa</h3>
-            <img src="Blue Dancers.png" alt=" Blue Dancers by Edgar Degas (i" width="400" height="275">
-            <p>
-                <strong>Artist:</strong> Edgar Degas<br>
-                Degas was a big fan of ballet, which is why he is called the <em>artist of ballerinas.</em>Today the painting is in the <ins>Pushkin Museum</ins> in Moscow.
-            </p>
-        </section>
-        <hr>
-        <p>I will always appreciate the <del>Painters</del> Magicians for the <strong>Art</strong> they create.</p>
-        <!--the del tag is used for strikethrough-->
-
-        
-            <h3>Artwork Information</h3>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Artwork</th>
-                        <th>Artist</th>
-                        <th>Medium</th>
-                        <th>Year</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>The Tower of Babel</td>
-                        <td>Pieter Bruegel</td>
-                        <td>Oil on wood panel</td>
-                        <td>c. 1563</td>
-                    </tr>
-                    <tr>
-                        <td>The Starry Night</td>
-                        <td>Vincent van Gogh</td>
-                        <td>Oil on canvas</td>
-                        <td>1889</td>
-                    </tr>
-                    <tr>
-                        <td>Impression, Sunrise</td>
-                        <td>Claude Monet</td>
-                        <td>Oil on canvas</td>
-                        <td>1872</td>
-                    </tr>
-                    <tr>
-                        <td>Girl with a Pearl Earring</td>
-                        <td>Johannes Vermeer</td>
-                        <td>Oil on canvas</td>
-                        <td>c. 1665</td>
-                    </tr>
-                    <tr>
-                        <td>Blue Dancers</td>
-                        <td>Edgar Degas</td>
-                        <td>Pastels on paper</td>
-                        <td>c. 1897</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <hr>
-        
-        <section id="gallery-info">
-            <h3>Gallery Information</h3>
-            
-            <h4>Gallery Rules</h4>
-            <ol type="1">
-                <li>Please do not touch the artworks.</li>
-                <li>Flash photography is prohibited.</li>
-                <li value="3">Enjoy the art and take your time.</li>
-            </ol>
-            
-            <h4>Common Art Mediums</h4>
-            <ul>
-                <li>Oil Paint</li>
-                <li>Watercolor</li>
-                <li>Charcoal</li>
-                <li>Digital</li>
-            </ul>
-      <hr>
-      <!--Table made of 4 columns and 5 rows, comparing artworks( their medium, year, artist)-->
-
-    </main>
-    
- <footer>
-        <p>Thank you for visiting!</p>
-        <p>To discover more masterpieces, visit the <a href="https://artistro.com/blogs/news/30-most-famous-artworks-in-history-the-greatest-art-of-all-time?srsltid=AfmBOor_dHEKQbLWIBMY28Mnc0UMAnKcLCNmhQFpaTbXc5qT_V_0f1MN" target="_blank">The Best Art Pieces</a>.</p>
-        <!--An external link that opens in new tab-->
+    <footer>
+        <p>&copy; 2025 Divya Tripathi. Built for Web Design Workshop.</p>
     </footer>
 
 </body>
