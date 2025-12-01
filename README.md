@@ -23,8 +23,7 @@ portfolio/
 ├── style.css         # CSS file for styling, layout, and color themes
 ├── README.txt        # Project documentation (this file)
 │
-└── images/           # Folder containing image assets
-    └── profile.jpg   # Profile picture used in the Home Section
+└── profile.jpeg      # Profile picture used in the Home Section
 
 ------------------------------------------------------------------------
 SECTIONS INCLUDED
